@@ -60,34 +60,34 @@ Este é o repositório dos códigos fonte desenvolvidos no curso [Formação Doc
 
 O código está organizado por módulo. Módulos puramente teóricos ou que não geram Dockerfile, docker-compose.yml ou código de aplicação não possuem pasta neste repositório.
 
-|  | Módulo | Conteúdo |
-|--|--------|----------|
-|  | `02` | Tudo o que Você Precisa Saber Antes de Começar no Docker |
-|  | `03` | Introdução aos Contêineres |
-|  | `04` | Os Principais Componentes do Docker |
-|  | `05` | Conhecendo Imagens e Contêineres |
-|  | `06` | Gerenciamento de Contêineres |
-|  | `07` | Conhecendo o Dockerfile |
-|  | `08` | Trabalhando com Docker Registries |
-|  | `09` | Dockerfile em Detalhes |
-|  | `10` | Redes no Docker |
-|  | `11` | Problemas Comuns no Docker e Como Resolvê-los |
-| ⭐[DISPONÍVEL APENAS PARA QUEM NÃO SE INSCREVEU PELA UDEMY] | `12` | Docker Compose |
-|  | `13` | Dockerizando Apps Java e Kotlin com Spring Boot 3 |
-|  | `14` | Dockerizando uma API RESTful em ASP.NET 10 / .NET 10 |
-|  | `15` | Dockerizando uma Aplicação com Node e React JS |
-|  | `16` | Implantando na Amazon AWS |
-| ⭐[DISPONÍVEL APENAS PARA QUEM NÃO SE INSCREVEU PELA UDEMY] | `17` | Testcontainers |
-|  | `18` | Minicurso de Kubernetes |
-|  | `19` | Kubernetes na GCP com Google Kubernetes Engine (GKE) |
-| ⭐[DISPONÍVEL APENAS PARA QUEM NÃO SE INSCREVEU PELA UDEMY] | `20` | Compose Bridge |
-| ⭐[DISPONÍVEL APENAS PARA QUEM NÃO SE INSCREVEU PELA UDEMY] | `21` | Ollama — IA privada no Docker |
-| ⭐[DISPONÍVEL APENAS PARA QUEM NÃO SE INSCREVEU PELA UDEMY] | `22` | Docker Model Runner |
-| ⭐[DISPONÍVEL APENAS PARA QUEM NÃO SE INSCREVEU PELA UDEMY] | `23` | Docker MCP Catalog e MCP Toolkit |
-|  | `24` | SGBDs em Contêineres (Postgres, SQL Server, MySQL, Oracle) |
-|  | `25` | Podman, Skopeo e Buildah |
-|  | `28` | [Apêndice] Instalando e Configurando o Docker no Windows |
-|  | `29` | [Apêndice] Instalando e Configurando o Docker no Linux |
+| Módulo | Conteúdo |
+|--------|----------|
+| `02` | Tudo o que Você Precisa Saber Antes de Começar no Docker |
+| `03` | Introdução aos Contêineres |
+| `04` | Os Principais Componentes do Docker |
+| `05` | Conhecendo Imagens e Contêineres |
+| `06` | Gerenciamento de Contêineres |
+| `07` | Conhecendo o Dockerfile |
+| `08` | Trabalhando com Docker Registries |
+| `09` | Dockerfile em Detalhes |
+| `10` | Redes no Docker |
+| `11` | Problemas Comuns no Docker e Como Resolvê-los |
+| ⭐`12` | Docker Compose [ALGUMAS AULAS INDISPONÍVEIS PARA QUEM SE INSCREVEU PELA UDEMY] |
+| `13` | Dockerizando Apps Java e Kotlin com Spring Boot 3 |
+| `14` | Dockerizando uma API RESTful em ASP.NET 10 / .NET 10 |
+| `15` | Dockerizando uma Aplicação com Node e React JS |
+| `16` | Implantando na Amazon AWS |
+| ⭐`17` | Testcontainers [INDISPONÍVEL PARA QUEM SE INSCREVEU PELA UDEMY] |
+| `18` | Minicurso de Kubernetes |
+| `19` | Kubernetes na GCP com Google Kubernetes Engine (GKE) |
+| ⭐`20` | Compose Bridge [INDISPONÍVEL PARA QUEM SE INSCREVEU PELA UDEMY] |
+| ⭐`21` | Ollama — IA privada no Docker [INDISPONÍVEL PARA QUEM SE INSCREVEU PELA UDEMY] |
+| ⭐`22` | Docker Model Runner [ALGUMAS AULAS INDISPONÍVEIS PARA QUEM SE INSCREVEU PELA UDEMY] |
+| ⭐`23` | Docker MCP Catalog e MCP Toolkit [ALGUMAS AULAS INDISPONÍVEIS PARA QUEM SE INSCREVEU PELA UDEMY] |
+| `24` | SGBDs em Contêineres (Postgres, SQL Server, MySQL, Oracle) |
+| `25` | Podman, Skopeo e Buildah |
+| `28` | [Apêndice] Instalando e Configurando o Docker no Windows |
+| `29` | [Apêndice] Instalando e Configurando o Docker no Linux |
 
 ---
 
@@ -113,13 +113,13 @@ Cada módulo tem sua própria pasta com o código desenvolvido nas aulas. Entre 
 **Exemplo — subindo a stack Java com Docker Compose:**
 
 ```bash
-cd 13-java-spring-boot
+cd 13A_DockerizingOurJavaApp/01_AfterDockerization
 docker compose up -d
 ```
 
 **Exemplo — rodando um LLM local com Docker Model Runner:**
 
 ```bash
-cd 22-docker-model-runner
+cd 22_AIOnPremiseWithDockerModelRunner
 docker compose up -d
 ```
