@@ -1,2 +1,40 @@
 Instante do envio: 17/08/2026 as 11:08:19,94 
 --------------------------------------------------- 
+[main 65a538c] Atualizacao automatica via BAT - 17/08/2026 11:08:20,43
+ 32 files changed, 2 insertions(+), 4577 deletions(-)
+ delete mode 100644 13A_DockerizingOurJavaApp/00_BeforeDockerization/rest-with-spring-boot-and-java-erudio/src/test/java/br/com/erudio/integrationtests/controllers/cors/withjson/PersonControllerCorsTest.java
+ delete mode 100644 13A_DockerizingOurJavaApp/00_BeforeDockerization/rest-with-spring-boot-and-java-erudio/src/test/java/br/com/erudio/integrationtests/controllers/withjson/PersonControllerJsonTest.java
+ delete mode 100644 13A_DockerizingOurJavaApp/00_BeforeDockerization/rest-with-spring-boot-and-java-erudio/src/test/java/br/com/erudio/integrationtests/controllers/withyaml/PersonControllerYamlTest.java
+ delete mode 100644 13A_DockerizingOurJavaApp/01_AfterDockerization/rest-with-spring-boot-and-java-erudio/src/test/java/br/com/erudio/integrationtests/controllers/cors/withjson/PersonControllerCorsTest.java
+ delete mode 100644 13A_DockerizingOurJavaApp/01_AfterDockerization/rest-with-spring-boot-and-java-erudio/src/test/java/br/com/erudio/integrationtests/controllers/withjson/PersonControllerJsonTest.java
+ delete mode 100644 13A_DockerizingOurJavaApp/01_AfterDockerization/rest-with-spring-boot-and-java-erudio/src/test/java/br/com/erudio/integrationtests/controllers/withyaml/PersonControllerYamlTest.java
+ delete mode 100644 13B_DockerizingOurKotlinApp/01-BeforeDockerization/DockerFromZeroToMastery-SpingBootAndKotlin/src/main/kotlin/br/com/erudio/exceptions/handler/CustomizedResponseEntityExceptionHandler.kt
+ delete mode 100644 13B_DockerizingOurKotlinApp/01-BeforeDockerization/DockerFromZeroToMastery-SpingBootAndKotlin/src/main/kotlin/br/com/erudio/serilization/converter/YamlJackson2HttpMessageConverter.kt
+ delete mode 100644 13B_DockerizingOurKotlinApp/01-BeforeDockerization/DockerFromZeroToMastery-SpingBootAndKotlin/src/test/kotlin/br/com/erudio/integrationtests/controller.cors.withjson/PersonControllerCorsWithJson.kt
+ delete mode 100644 13B_DockerizingOurKotlinApp/01-BeforeDockerization/DockerFromZeroToMastery-SpingBootAndKotlin/src/test/kotlin/br/com/erudio/integrationtests/controller/withjson/AuthControllerJsonTest.kt
+ delete mode 100644 13B_DockerizingOurKotlinApp/01-BeforeDockerization/DockerFromZeroToMastery-SpingBootAndKotlin/src/test/kotlin/br/com/erudio/integrationtests/controller/withjson/BookControllerJsonTest.kt
+ delete mode 100644 13B_DockerizingOurKotlinApp/01-BeforeDockerization/DockerFromZeroToMastery-SpingBootAndKotlin/src/test/kotlin/br/com/erudio/integrationtests/controller/withjson/PersonControllerJsonTest.kt
+ delete mode 100644 13B_DockerizingOurKotlinApp/01-BeforeDockerization/DockerFromZeroToMastery-SpingBootAndKotlin/src/test/kotlin/br/com/erudio/integrationtests/controller/withxml/AuthControllerXmlTest.kt
+ delete mode 100644 13B_DockerizingOurKotlinApp/01-BeforeDockerization/DockerFromZeroToMastery-SpingBootAndKotlin/src/test/kotlin/br/com/erudio/integrationtests/controller/withxml/BookControllerXmlTest.kt
+ delete mode 100644 13B_DockerizingOurKotlinApp/01-BeforeDockerization/DockerFromZeroToMastery-SpingBootAndKotlin/src/test/kotlin/br/com/erudio/integrationtests/controller/withxml/PersonControllerXmlTest.kt
+ delete mode 100644 13B_DockerizingOurKotlinApp/01-BeforeDockerization/DockerFromZeroToMastery-SpingBootAndKotlin/src/test/kotlin/br/com/erudio/integrationtests/controller/withyml/AuthControllerYmlTest.kt
+ delete mode 100644 13B_DockerizingOurKotlinApp/01-BeforeDockerization/DockerFromZeroToMastery-SpingBootAndKotlin/src/test/kotlin/br/com/erudio/integrationtests/controller/withyml/BookControllerYamlTest.kt
+ delete mode 100644 13B_DockerizingOurKotlinApp/01-BeforeDockerization/DockerFromZeroToMastery-SpingBootAndKotlin/src/test/kotlin/br/com/erudio/integrationtests/controller/withyml/PersonControllerYmlTest.kt
+ delete mode 100644 13B_DockerizingOurKotlinApp/01-BeforeDockerization/DockerFromZeroToMastery-SpingBootAndKotlin/src/test/kotlin/br/com/erudio/integrationtests/testcontainers/AbstractIntegrationTest.kt
+ delete mode 100644 17_Testcontainers/00_BeforeTestcontainers/rest-with-spring-boot-and-java-erudio/.idea/.gitignore
+ delete mode 100644 17_Testcontainers/00_BeforeTestcontainers/rest-with-spring-boot-and-java-erudio/.idea/compiler.xml
+ delete mode 100644 17_Testcontainers/00_BeforeTestcontainers/rest-with-spring-boot-and-java-erudio/.idea/encodings.xml
+ delete mode 100644 17_Testcontainers/00_BeforeTestcontainers/rest-with-spring-boot-and-java-erudio/.idea/jarRepositories.xml
+ delete mode 100644 17_Testcontainers/00_BeforeTestcontainers/rest-with-spring-boot-and-java-erudio/.idea/misc.xml
+ delete mode 100644 17_Testcontainers/00_BeforeTestcontainers/rest-with-spring-boot-and-java-erudio/.idea/vcs.xml
+ delete mode 100644 17_Testcontainers/01_AfterTestcontainers/rest-with-spring-boot-and-java-erudio/.idea/.gitignore
+ delete mode 100644 17_Testcontainers/01_AfterTestcontainers/rest-with-spring-boot-and-java-erudio/.idea/compiler.xml
+ delete mode 100644 17_Testcontainers/01_AfterTestcontainers/rest-with-spring-boot-and-java-erudio/.idea/encodings.xml
+ delete mode 100644 17_Testcontainers/01_AfterTestcontainers/rest-with-spring-boot-and-java-erudio/.idea/jarRepositories.xml
+ delete mode 100644 17_Testcontainers/01_AfterTestcontainers/rest-with-spring-boot-and-java-erudio/.idea/misc.xml
+ delete mode 100644 17_Testcontainers/01_AfterTestcontainers/rest-with-spring-boot-and-java-erudio/.idea/vcs.xml
+ create mode 100644 99_Log/log_envio_github_17082026_110819.txt
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+remote: Permission to leandrocgsi/docker-and-kubernetes-from-0-to-ai.git denied to jaajanjos.
+fatal: unable to access 'https://github.com/leandrocgsi/docker-and-kubernetes-from-0-to-ai.git/': The requested URL returned error: 403
