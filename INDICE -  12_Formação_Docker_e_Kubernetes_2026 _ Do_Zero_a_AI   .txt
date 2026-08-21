@@ -310,9 +310,6 @@ M25 Podman, Skopeo e Buildah - Como Começar?
 	2511 Executando a Container Image no Podman e no Docker Estreia 30/08/2026
 
 
-M26 ?????
-
-
 M27 FAQ - Dúvidas mais Comuns
 	2701 Meu Codigo e Igualzinho ao do Curso mas não Funciona!?
 	2702 O Docker esta com Problemas Estranhos e não se Comporta como o Esperado!?
