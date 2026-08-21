@@ -1,0 +1,340 @@
+Formação Docker e Kubernetes 2026: do Zero à Inteligência Artificial com MCP Catalog e Docker Model Runner
+
+
+M01 Introdução ao Curso 04:44
+	0101 Boas Vindas ao Treinamento
+
+
+M02 Tudo o que Você Precisa Saber Antes de Começar no Docker
+	0201 Apresentação do Módulo - Tudo o que Você Precisa Saber Antes de Começar no Docker
+	0202 Executando o primeiro contêiner Docker
+	0203 Como Preparar seu Ambiente de Desenvolvimento: Ferramentas Essenciais e Recomendações!
+	0204 Como Acessar o Repositório do Curso no Github?
+	0205 Como Consultar o Código dos Projetos Desenvolvidos no Curso?
+
+
+M03 Introducao aos Conteineres
+	0301 Apresentação do Módulo - Introdução aos Contêineres
+	0302 O Surgimento das Máquinas Virtuais
+	0303 O Lado Ruim das Máquinas Virtuais
+	0304 O que são Contêineres?
+	0305 Os Contêineres Vistos de Dentro
+	0306 Conhecendo o Docker
+	0307 O Docker no Windows e a Compatibilidade no Windows e no Linux
+	0308 O Futuro do Docker e dos Contêineres
+
+
+M04 Os Principais Componentes do Docker
+	0401 Apresentação do Módulo - Os Principais Componentes do Docker
+	0402 Explorando Contêineres na Prática
+	0403 Uma Visão de Alto Nível do Ecossistema Docker
+	0404 Conhecendo o Docker Engine (Docker Daemon)
+	0405 Conhecendo as Docker Images (Contêiner Images)
+	0406 Conhecendo os Contêineres Docker
+	0407 Conhecendo os Registries e o Docker Hub
+
+
+M05 Conhecendo Imagens e Conteineres
+	0501 Apresentação do Módulo - Conhecendo Imagens e Contêineres
+	0502 As Camadas das Imagens
+	0503 Union Mounts
+	0504 Onde as Imagens são Armazenadas
+	0505 Copiando Imagens para Outros Hosts
+	0506 A Camada de Escrita dos Contêineres
+	0507 Um Processo por Contêiner
+	0508 Comandos para Trabalhar com Contêineres
+
+
+M06 Gerenciamento de Conteineres
+	0601 Apresentação do Módulo - Gerenciamento de Contêineres
+	0602 Iniciando e Parando Contêineres
+	0603 PID 1 e Contêineres
+	0604 Deletando Contêineres
+	0605 Olhando Dentro dos Contêineres
+	0606 Informações de Baixo Nível do Contêiner
+	0607 Acessando o Shell de um Contêiner
+
+
+M07 Conhecendo o Dockerfile
+	0701 Apresentação do Módulo - Conhecendo o Dockerfile
+	0702 Conhecendo o Dockerfile
+	0703 Criando o nosso Primeiro Dockerfile
+	0704 Construindo uma Imagem a Partir de um Dockerfile
+	0705 Inspecionando um Dockerfile no Docker Hub
+
+
+M08 Trabalhando com Docker Registries
+	0801 Apresentação do Módulo - Trabalhando com Docker Registries
+	0802 O que é o Docker Hub e como criar uma Conta
+	0803 Criando um Repositório Publico no DockerHub
+	0804 Usando o nosso Repositório Publico no DockerHub
+	0805 Introdução aos Docker Registries Privados
+	0806 Gerando o Certificado para o Docker Registry Privado
+	0807 Criando um Docker Registry Privado
+	0808 Configurando os Clientes para Enxergar o nosso Docker Registry Privado
+	0809 Usando o nosso Docker Registry Privado
+	0810 Docker Enterprise Edition
+
+
+M09 Conhecendo o Dockerfile em Detalhes
+	0901 Apresentação do Módulo - Conhecendo o Dockerfile em Detalhes
+	0902 O Cache de Build
+	0903 Dockerfile e Camadas
+	0904 Construindo um Servidor Web Atraves de um Dockerfile
+	0905 Inicializando o Contêiner do Servidor Web
+	0906 Reduzindo o Numero de Camadas em uma Imagem
+	0907 A Instrução CMD
+	0908 A Instrução ENTRYPOINT
+	0909 A Instrução ENV
+	910 Volumes e a Instrução VOLUME
+
+M10 Redes no Docker
+	1001 Apresentação do Módulo - Redes no Docker
+	1002 A Virtual Bridge docker0
+	1003 Interfaces Virtuais de Ethernet
+	1004 Arquivos de Configuracao de Redes
+	1005 Exposicao de Portas
+	1006 Visualizando Portas Expostas
+	1007 Linkando Conteineres
+	1008 Configurando o Docker Engine para Acesso Remoto por Docker Clients na Rede
+
+
+11 Problemas Comuns no Docker e Como Resolvê-los
+	1101 Apresentacao do Módulo - Problemas Comuns no Docker e Como Resolvê-los
+	1102 Os Logs do Docker Daemon
+	1103 Os Logs do Contêiner
+	1104 Planejando os Builds de Imagens
+	1105 Imagens Intermediárias
+	1106 O docker0 Bridge
+	1107 IPTables
+	1108 Limpando o Ambiente Docker
+
+
+M12 Conhecendo a Orquestração de Contêineres com Docker Compose
+	1201 Apresentação da Seção - Minicurso de Docker Compose
+	1202 O que é o Docker Compose?
+	1203 Entendendo como Funciona o Arquivos docker-compose.yml
+	1204 Volumes e Variáveis de Ambiente no Docker Compose
+	1205 Redes no Docker Compose
+	1206 Conheça os Comandos do Docker Compose Iniciando uma Stack com Wordpress
+	1207 Parando contêineres no Docker Compose
+	1208 Manutenção de contêineres no Docker Compose
+	1209 Configurando a reinicialização automática de contêineres
+	1210 Status de Contêineres com Docker Compose
+	1212 Convertendo o Docker Registry Privado para Docker Compose
+	1213 Subindo o Docker Privado Registry com Docker Compose
+	1214 Testando o Docker Registry Privado com Docker Compose
+
+
+M13 Dockerizando Aplicações Java e Kotlin com Spring Boot
+	1301 Apresentação da Seção - Dockerizando Aplicações Java e Kotlin com Spring Boot
+	1302 Conhecendo a Aplicação Spring Boot e Java que Iremos Dockerizar
+	1303 Criando o Dockerfile e Integrando a nossa Aplicação ao Docker Compose
+	1304 Construindo o .jar da nossa API RESTful via Terminal
+	1305 Executando a nossa Stack com Docker e Docker Compose via Terminal
+	1306 Construindo o .jar da nossa API RESTful via IntelliJ
+	1307 Executando a nossa Stack com Docker e Docker Compose via IntelliJ
+	1308 Testando a nossa Aplicação com o Postman
+	1309 Testando a nossa Aplicação com os Testes de Integração
+	1310 Enviando as Docker Imagens para o DockerHub
+	1311 Entendendo o que é Continuous Integration e Continuous Delivery
+	1312 Configurando o Github Actions para Acessar o Docker Hub
+	1313 Logando no Docker Hub e Instalando o Java com Github Actions
+	1314 Finalizando o Script de Continuous Integration e Delivery com o Github Actions
+	1315 Adicionando o Portainer à nossa Stack do Docker Compose
+	1316 Executando à nossa Stack do Docker Compose e Conhecendo o Portainer
+	1317 Executando a Stack a partir das Docker Images do Docker Hub
+	1318 Executando o Stack Spring Boot no Ubuntu
+	1319 A Aplicação Desenvolvida em Kotlin com Spring Boot que Iremos Dockerizar
+	1320 [DESAFIO] Dockerize a Aplicação Desenvolvida em Kotlin com Spring Boot
+	1321 Dockerizando a Aplicação Desenvolvida em Kotlin com Spring Boot
+	1322 Integração Contínua com o Github Actions, Kotlin e Spring Boot
+	1323 Executando a Stack a partir das Docker Images Kotlin no Docker Hub
+
+
+M14 [DOCKERIZANDO .NET] Introdução à Conteinerização com Docker em Ambientes .NET
+	1401 Apresentação da Seção - Introdução à Conteinerização com Docker em Ambientes .NET
+	1402 Dockerizando a Primeira Aplicação em ASP.NET 10
+	1403 Construindo a sua Primeira Docker Image com ASP.NET 10
+	1404 Subindo um Contêiner Docker a partir da Docker Image que Criamos
+	1405 Conhecendo a API RESTful em ASP.NET 10 que Iremos Dockerizar
+	1406 Preparando a REST API RESTful em ASP.NET 10 para a Dockerização
+	1407 Adicionando o Suporte ao Docker
+	1408 Ajustando o docker-compose.yml
+	1409 Executando a Stack c Docker e Docker Compose no Visual Studio Insiders 2026
+	1410 Executando a nossa Stack com Docker e Docker Compose via Terminal
+	1411 Enviando as Docker Imagens para o DockerHub
+	1412 Entendendo o que é Continuous Integration e Continuous Delivery
+	1413 Configurando o Github Actions para Acessar o Docker Hub
+	1414 Logando no Docker Hub e Instalando o .NET 10 com Github Actions
+	1415 Fazendo o Build e Rodando os Testes de Integração via Terminal 09:45
+	1416 Inicializando um Conteiner com o SQL Server 2022 no GithubActions 09:55
+	1417 Fazendo o Build e Rodando os Testes de Integração no Github Actions 08:00
+	1418 Finalizando o Script de Continuous Integration e Delivery c Github Actions
+	1419 Adicionando o Portainer à nossa Stack do Docker Compose
+	1420 Executando à nossa Stack do Docker Compose e Conhecendo o Portainer
+	1421 Executando a Stack a partir das Docker Images do Docker Hub
+	1423 Executando a Stack ASP.NET 10 com Docker Compose no CentOS
+
+
+M15 [DOCKERIZANDO NODE JS] Introdução à Conteinerização com Docker em Ambientes Node JS
+	1501 Apresentação do Módulo - Dockerizando uma Aplicação com Node e React JS
+	1502 A Aplicação com Node JS e React JS que Iremos Dockerizar
+	1503 Dockerizando o Front-end
+	1504 Dockerizando o Back-end
+	1505 Adicionando o docker-compose.yml
+	1506 Executando e Testando a Aplicação
+	1507 Automatizando o build e push das Docker Images com o Github Actions
+
+
+M16 Implantando a Aplicacao Node e React JS na AWS
+	1601 Apresentacao do Módulo - Implantando a Aplicacao Node e React JS na AWS
+	1602 O Nivel Gratuito da Amazon AWS
+	1603 Criacao de Uma Conta na Amazon
+	1604 Criando uma Instancia Ubuntu na Amazon EC2
+	1605 Acessando uma Instancia EC2 via SSH
+	1606 Instalando o Docker na nossa Instancia EC2
+	1607 Executando uma Aplicacao Docker na Amazon EC2
+
+
+M17 Testes de Integração com TestContainers e REST Assured
+	1701 Apresentação da Seção - Introdução aos de Testes de Integração
+	1702 Conhecendo as Ferramentas de Testes de Integração e Adicionando-as ao Projeto
+	1703 Adicionando as Dependências do TestContainers e do REST-Assured ao Projeto
+	1704 Preparando a Infraestrutura de Testes com Testcontainers
+	1705 Testando a Geração da Pagina do Swagger UI com Testcontainers e Rest Assured
+
+
+M18 Introdução à Clusterização com Kubernetes
+	1801 Apresentação da Seção - Introdução à Clusterização com Kubernetes
+	1802 Docker e Kubernetes - A Combinação Perfeita para API's RESTful Modernas
+	1803 Docker e Kubernetes Entendendo o Melhor de Ambos
+	1804 Conceituando o que é Kubernetes como te Pediriam em uma prova Teórica
+	1805 Overview sobre os Clusters Kubernetes
+	1806 Fazendo o Deploy da nossa Primeira Aplicação em um Cluster Kubernetes
+	1807 Overview de Conceitos Chave do Kubernetes - Pods, Replica Sets e Deployment
+	1808 Entendendo os Pods do Kubernetes
+	1809 Entendendo ReplicaSets em Kubernetes
+	1810 Entendendo Deployment no Kubernetes
+	1811 Review de Conceitos Chave do Kubernetes - Pods, Replica Sets e Deployments
+	1812 Entendendo Services em Kubernetes
+	1813 Entendendo a Arquitetura do Kubernetes - Master Node e Worker Nodes
+	1814 Visualizando o Status do Principais Componentes do Kubernetes
+	1815 Executando o Kubernetes Dashboard em um Cluster Local
+
+
+M19 Executando um Cluster Kubernetes na GKE (Google Kubernetes Engine)
+	1901 Apresentação da Seção - Executando um Cluster Kubernetes na GKE (Google Kubernetes Engine)
+	1902 Os servicos Disponiveis no Google Cloud Free Tier
+	1903 Criacao de Uma Conta na Google Cloud Platform
+	1904 Criacao de um Usuario IAM Para Gerenciar os Servicos da Google Cloud
+	1905 Instalando Google Cloud CLI (gcloud CLI)
+	1906 Criando um Cluster Kubernetes com Google Kubernetes Engine (GKE)
+	1907 Fazendo o Deploy da Primeira App em um Cluster Kubernetes da GCP
+	1908 Pods, Replica Sets e Deployment na Google Kubernetes Engine (GKE)
+	1909 Os Pods do Kubernetes na Google Kubernetes Engine (GKE)
+	1910 Os ReplicaSets na Google Kubernetes Engine (GKE)
+	1911 Os Deployments na Google Kubernetes Engine (GKE)
+	1912 Inicializando o Cluster em outra Região da Google Cloud
+	1913 Os Services na Google Kubernetes Engine (GKE)
+	1914 Conhecendo o Cloud Console o 'Kubernetes Dashboard' do GKE
+	1915 Deletar todos os Recursos Associados a um Label
+
+
+M20 Do Docker Compose ao Kubernetes com Compose Bridge
+	2001 Apresentação do Módulo – Do Docker Compose ao Kubernetes com Compose Bridge
+	2002 Entendendo o Problema: a Lacuna entre Docker Compose e o Kubernetes
+	2003 Instalando e Configurando o Compose Bridge no Docker Desktop
+	2004 Convertendo o docker-compose.yml do Wordpress para Manifests Kubernetes
+	2005 O que o Compose Bridge Não Faz - Ajustes Manuais Necessários
+	2006 Corrigindo os Volumes e os Services do Overlay
+	2007 Fazendo o Deploy da Stack Convertida em um Cluster Local
+
+
+M21 Ollama Inteligência Artificial On Premise (privada) no Docker
+	2101 Apresentação da Seção - Ollama na Prática, Rodando Modelos (LLM's) de IA Localmente
+	2102 O que é o Ollama?
+	2103 Entendendo a Arquitetura do Ollama
+	2104 Executando o Ollama no Docker com Docker Compose
+	2105 Executando o Primeiro LLM (Modelo de IA) Localmente
+	2106 Adicionando o Open WebUI à Stack Docker Compose Ollama
+
+
+M22 Docker Model Runner Inteligência Artificial On Premise (privada) com Docker
+	2201 Apresentação do Módulo — Docker Model Runner Inteligência Artificial On Premise (privada) com Docker Estreia 30/08/2026
+	2202 O que é o Docker Model Runner e por que Rodar LLMs Localmente? Estreia 30/08/2026
+	2203 Habilitando o Docker Model Runner no Docker Desktop Estreia 30/08/2026
+	2204 Baixando e Rodando seu Primeiro LLM com Docker Model Runner Estreia 30/08/2026
+	2205 Interagindo com o Modelo via API OpenAI-Compatible Estreia 30/08/2026
+	2206 Open WebUI com Docker Model Runner Estreia 30/08/2026
+	2207 Gerenciando Modelos no Docker Model Runner Estreia 30/08/2026
+
+
+M23 Docker MCP Catalog e MCP Toolkit Integrando Inteligência Artificial ao seu Software com Docker
+	2301 Apresentação do Módulo - Docker MCP Catalog e MCP Toolkit
+	2302 Entendendo o que é MCP (Model Context Protocol)
+	2303 O que é o Docker MCP Catalog e como ele se Encaixa no Ecossistema?
+	2304 Criando uma Conta no Claude AI da Antropic
+	305 Instalando o Claude Desktop da Antropic
+	2306 Conhecendo o MCP Toolkit e Executando seu Primeiro MCP Server
+	2307 Conectando o MCP Toolkit ao Claude Desktop e Vendo Funcionar
+	2308 Configurando o Claude Desktop para Consumir um MCP Server Existente
+	2309 Criando o MCP Server com Spring Boot que será Usado no Claude Desktop
+	2310 Criando o Serviço que será Exposto via MCP
+	2311 Definindo as Configurações do MCP Server e Exposição das Tools
+	2312 Configurando o Claude Desktop para Consumir o nosso MCP Server
+	2313 Testando a Integração do Claude Desktop com o nosso MCP Server
+	2314 Dockerizando o MCP Server e Publicando no Docker Hub
+
+
+M24 Precisa Instalar um SGBD? Que tal Subir um Contêiner?
+	2401 Apresentação do Módulo - Precisa Instalar um SGBD? Que tal Subir um Contêiner? Estreia 30/08/2026
+	2402 Iniciando um Contêiner Postgres Estreia 30/08/2026
+	2403 Iniciando um Contêiner SQL Server Estreia 30/08/2026
+	2404 Iniciando um Contêiner MySQL Estreia 30/08/2026
+	2405 Construindo a Docker Image Oracle Estreia 30/08/2026
+	2406 Iniciando um Contêiner Oracle Estreia 30/08/2026
+
+
+M25 Podman, Skopeo e Buildah - Como Começar?
+	2501 Apresentação do Módulo - Podman, Skopeo e Buildah como Começar Estreia 30/08/2026
+	2502 Conhecendo o Podman Estreia 30/08/2026
+	2503 Instalando o Podman Estreia 30/08/2026
+	2504 Iniciando um Container Apache 2  Estreia 30/08/2026
+	2505 Gerenciando Contêineres no Podman Estreia 30/08/2026
+	2506 Conhecendo o Skopeo Estreia 30/08/2026
+	2507 Conhecendo o Buildah Estreia 30/08/2026
+	2508 A Compatibilidade do Buildah com Dockerfiles Estreia 30/08/2026
+	2509 Criando Container Images com o Buildah Estreia 30/08/2026
+	2510 Enviando a Container Image para o Docker Hub com o Buildah  Estreia 30/08/2026
+	2511 Executando a Container Image no Podman e no Docker Estreia 30/08/2026
+
+
+M26 ?????
+
+
+M27 FAQ - Dúvidas mais Comuns
+	2701 Meu Codigo e Igualzinho ao do Curso mas não Funciona!?
+	2702 O Docker esta com Problemas Estranhos e não se Comporta como o Esperado!?
+	2703 Como Acessar a Minha Máquina na Amazon AWS via SSH?
+	2704 Por que não Consigo me Conectar a Minha Máquina na Amazon AWS?
+	2705 Como o ChatGPT pode te Ajudar a Resolver Bugs?
+	2706 Como Resolver o Erro Port 8080 Already in use Porta em Uso?
+
+
+M28 [APÊNDICE 1] - Configuração do Ambiente de Desenvolvimento Docker no Windows
+	2801 Apresentação do Módulo - Configuração do Ambiente de Desenvolvimento Docker no Windows
+	2802 Instalando o Docker Desktop no Windows
+	2803 Habilitando o Kubernetes no Docker Desktop
+
+
+M29 [APÊNDICE 2] - Configuração do Ambiente de Desenvolvimento Docker no Linux
+	2902 [OPCIONAL] Instalando o VirtualBox
+	2903 [OPCIONAL] Download e Instalação do Ubuntu
+	2904 [OPCIONAL] Instalando o Docker e o Docker Compose no Ubuntu
+	2905 [OPCIONAL] Download e Instalação do AlmaLinux
+	2906 [OPCIONAL] Instalando o Docker e o Docker Compose no AlmaLinux
+	2807 [OPCIONAL] Download e Instalação do Debian 13
+	2808 [OPCIONAL] Instalando o Docker e o Docker Compose no Debian 13
+	2909 Instalando o Visual Studio Code no Ubuntu
+

@@ -1,0 +1,21 @@
+# Instaladores e compactados
+*.exe
+*.msi
+*.zip
+*.rar
+*.7z
+*.iso
+*.tar.gz
+
+# Midias e videos de aulas
+*.mp4
+*.mkv
+*.avi
+Video_Aulas/
+99_Download/
+Download/
+
+# Logs e scripts operacionais
+99_Log/
+*.log
+*.bat
