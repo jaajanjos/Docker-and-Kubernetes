@@ -83,10 +83,10 @@ M09 Conhecendo o Dockerfile em Detalhes
 	0904 Construindo um Servidor Web Atraves de um Dockerfile
 	0905 Inicializando o Contêiner do Servidor Web
 	0906 Reduzindo o Numero de Camadas em uma Imagem
-	0907 A Instrução CMD
+	1007 A Instrução CMD
 	0908 A Instrução ENTRYPOINT
 	0909 A Instrução ENV
-	910 Volumes e a Instrução VOLUME
+	0910 Volumes e a Instrução VOLUME
 
 M10 Redes no Docker
 	1001 Apresentação do Módulo - Redes no Docker
@@ -99,7 +99,7 @@ M10 Redes no Docker
 	1008 Configurando o Docker Engine para Acesso Remoto por Docker Clients na Rede
 
 
-11 Problemas Comuns no Docker e Como Resolvê-los
+M11 Problemas Comuns no Docker e Como Resolvê-los
 	1101 Apresentacao do Módulo - Problemas Comuns no Docker e Como Resolvê-los
 	1102 Os Logs do Docker Daemon
 	1103 Os Logs do Contêiner
