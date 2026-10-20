@@ -35,6 +35,10 @@ D:\PROJETOS_CODE\BIO
 │   ├── Base_Ficticia_ECommerce.xlsx  ← base fictícia (10 abas)
 │   └── gerar_base.py                 ← script Python que recria a base
 │
+├── PLANO DE ESTUDOS\
+│   ├── Acompanhamento_Estudos.xlsx   ← checklist de 61 tópicos + painel
+│   └── gerar_planilha_estudos.py     ← script Python que recria a planilha
+│
 └── (pastas e README.md do curso Docker/Kubernetes)
 ```
 
@@ -137,6 +141,18 @@ O script usa semente fixa (`random.seed(42)`), então gera sempre os mesmos dado
 | 6–7 | DAX | Pacote 3 (Padrão) |
 | 8 | Power BI Service, Gateway, RLS | Pacote 3 Premium + Pacote 4 |
 
+### Planilha de acompanhamento (`PLANO DE ESTUDOS\Acompanhamento_Estudos.xlsx`)
+
+| Aba | Uso |
+|---|---|
+| Painel | % concluído, horas estudadas, progresso por bloco e **quais pacotes já podem ser vendidos** |
+| LEIA-ME | Instruções e convenções |
+| Checklist | 61 tópicos com semana, bloco, pacotes, nível, **Status** (lista suspensa), datas, fonte e exercício prático na base |
+| Diario | Registro de cada sessão de estudo (data, tópico, horas, anotações) |
+| Cronograma | 8 semanas; altere a data de início (C3) e as datas se ajustam |
+
+Um pacote fica liberado no **Nível Básico** quando todos os seus tópicos Básico e Intermediário estão concluídos, e **Completo** quando todos estão concluídos, inclusive os Avançados.
+
 **Fontes de estudo:** Microsoft Learn (trilha PL-300, gratuita) · YouTube: Hashtag Treinamentos, Karine Lago, Leonardo Karpinski · Kaggle (datasets de vendas)
 
 ---
@@ -179,12 +195,14 @@ https://github.com/jaajanjos/Docker-and-Kubernetes/archive/refs/heads/claude/fun
 | 20/10/2026 | Portfólio em PDF |
 | 20/10/2026 | Base fictícia de e-commerce em Excel |
 | 20/10/2026 | Script `gerar_base.py` e esta documentação |
+| 20/10/2026 | Planilha de acompanhamento de estudos |
 
 ---
 
 ## 9. Próximos passos
 
 - [ ] Fazer o `git clone`/`git pull` em `D:\PROJETOS_CODE\BIO`
+- [ ] Preencher a data de início no Cronograma e começar o Checklist
 - [ ] Criar os perfis nas plataformas usando `PORTFOLIO_PACOTES.pdf`
 - [ ] Limpar a aba **Base_Suja** com Power Query (amostra 1)
 - [ ] Montar o painel de vendas e estoque no Excel (amostra 2)
