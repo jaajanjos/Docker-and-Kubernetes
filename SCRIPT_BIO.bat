@@ -48,7 +48,7 @@ for %%P in ("Portfolio_Freelancer" "E-COMMERCE EM EXCEL" "PLANO DE ESTUDOS") do 
     robocopy "%SRC%\%%~P" "%DEST%\%%~P" /E /NFL /NDL /NJH /NJS /NP >nul
     echo       - %%~P
 )
-for %%F in ("PROJETO_BIO.md" "PROJETO_BIO.pdf" "SCRIPT_BIO.bat") do (
+for %%F in ("PROJETO_BIO.md" "PROJETO_BIO.pdf" "DOCUMENTO_GERAL.docx" "SCRIPT_BIO.bat") do (
     copy /Y "%SRC%\%%~F" "%DEST%\" >nul
     echo       - %%~F
 )
